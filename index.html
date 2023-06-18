@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sketch</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+  </head>
+
+  <body>
+     <button id="theme">DAY</button>
+     <button onclick="startgame();touchStarted(); "id="start"> 
+      <h1>Click anywhere to start Game</h1>
+      <p>CLAP or SHOUT to stop the slidder!</p>
+     </button>
+    <div id="game"></div>
+    <div class="buttons" >
+
+        <button onclick="stopSliding(1)" id="btn"> stop!</button>
+        <button id="restart" onclick="location.reload()">Restart</button>
+
+    <script src="sketch.js"></script>
+  </body>
+
+</html>
